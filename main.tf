@@ -53,7 +53,7 @@ module "records" {
 
   records = [
     {
-      name    = "jenkins"
+      name    = "jenkins-master"
       type    = "A"
       ttl     = 1
       records = [
